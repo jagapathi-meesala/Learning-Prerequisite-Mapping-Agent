@@ -1,0 +1,11 @@
+name: validate-topic-map
+description: Validate topic identifiers, prerequisite references, and cycles.
+input_schema:
+  type: object
+  required:
+    - topics
+  properties:
+    topics:
+      type: array
+      items:
+        type: object

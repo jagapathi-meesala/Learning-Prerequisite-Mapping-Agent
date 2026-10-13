@@ -1,0 +1,18 @@
+name: build-learning-path
+description: Create a prerequisite-first learning sequence for a supplied target topic.
+input_schema:
+  type: object
+  required:
+    - topics
+    - target_topic
+  properties:
+    topics:
+      type: array
+      items:
+        type: object
+    target_topic:
+      type: string
+    learned_topics:
+      type: array
+      items:
+        type: string

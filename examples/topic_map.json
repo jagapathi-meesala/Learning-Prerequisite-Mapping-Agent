@@ -1,0 +1,41 @@
+{
+  "target_topic": "neural-networks",
+  "learned_topics": [
+    "python-basics"
+  ],
+  "topics": [
+    {
+      "id": "python-basics",
+      "name": "Python Basics",
+      "prerequisites": []
+    },
+    {
+      "id": "linear-algebra",
+      "name": "Linear Algebra",
+      "prerequisites": []
+    },
+    {
+      "id": "calculus",
+      "name": "Calculus Basics",
+      "prerequisites": [
+        "linear-algebra"
+      ]
+    },
+    {
+      "id": "machine-learning",
+      "name": "Machine Learning Basics",
+      "prerequisites": [
+        "python-basics",
+        "linear-algebra",
+        "calculus"
+      ]
+    },
+    {
+      "id": "neural-networks",
+      "name": "Neural Networks",
+      "prerequisites": [
+        "machine-learning"
+      ]
+    }
+  ]
+}

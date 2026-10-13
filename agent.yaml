@@ -1,0 +1,22 @@
+spec_version: "0.1.0"
+name: learning-prerequisite-mapping-agent
+version: "1.0.0"
+description: "Maps prerequisite relationships between learning topics and suggests an explainable study order."
+author: jagapathi-meesala
+license: MIT
+skills:
+  - prerequisite-identification
+  - learning-path-planning
+  - gap-analysis
+tools:
+  - validate-topic-map
+  - build-learning-path
+  - identify-prerequisite-gaps
+runtime:
+  max_turns: 5
+  temperature: 0.2
+  timeout: 30
+tags:
+  - education
+  - prerequisites
+  - learning-path
